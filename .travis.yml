@@ -8,3 +8,9 @@ cache: npm
 
 before_install:
   - ls -la
+
+install:
+  - npm install
+
+script:
+  - npm run build
